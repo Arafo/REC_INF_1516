@@ -1,0 +1,202 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/eolico">
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/energiaRenovable"/>
+    <skos:prefLabel>eolico</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/motorGrafico">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/videojuego"/>
+    <skos:prefLabel>motor grafico</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/diseno">
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/disenoPersonajes"/>
+    <skos:prefLabel>diseño</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/santomense">
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/arquitectura"/>
+    <skos:prefLabel>santomense</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/energia">
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/energiaRenovable"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/energiaTermica"/>
+    <skos:altLabel>energias</skos:altLabel>
+    <skos:prefLabel>energia</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/obra">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/cancion"/>
+    <skos:prefLabel>obra</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/guerraIndependencia">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/CarlosIV"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/tropasFrancesas"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/ejercito"/>
+    <skos:prefLabel>guerra de la independencia</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/monasterio">
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/arquitectura"/>
+    <skos:altLabel>monasterio de san juan de la peña</skos:altLabel>
+    <skos:prefLabel>monasterio de piedra</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/melodia">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/cancion"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/ritmo"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/musica"/>
+    <skos:prefLabel>melodia</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/jugabilidad">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/videojuego"/>
+    <skos:prefLabel>jugabilidad</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/musica">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/cancion"/>
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/melodia"/>
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/ritmo"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/sonido"/>
+    <skos:prefLabel>musica</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/solar">
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/energiaRenovable"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/panel"/>
+    <skos:prefLabel>solar</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/ritmo">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/cancion"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/melodia"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/musica"/>
+    <skos:prefLabel>ritmo</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/energiaTermica">
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/energia"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/calor"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/energiaRenovable"/>
+    <skos:prefLabel>energia termica</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/virtual">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/videojuego"/>
+    <skos:prefLabel>virtual</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/castillo">
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/arquitectura"/>
+    <skos:prefLabel>castillo</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/cancion">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/ritmo"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/musica"/>
+    <skos:prefLabel>cancion</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/renacimiento">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/arquitectura"/>
+    <skos:prefLabel>renacimiento</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/CarlosIV">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/guerraIndependencia"/>
+    <skos:prefLabel>carlos iv</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/panel">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/solar"/>
+    <skos:prefLabel>panel</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/videojuego">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/motorGrafico"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/3d"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/jugabilidad"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/virtual"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/personaje"/>
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/disenoPersonajes"/>
+    <skos:prefLabel>videojuego</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/sonido">
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/musica"/>
+    <skos:prefLabel>sonido</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/disenoPersonajes">
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/videojuego"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/diseno"/>
+    <skos:prefLabel>diseño de personaje</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/3d">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/videojuego"/>
+    <skos:prefLabel>3d</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/patrimonio">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/arquitectura"/>
+    <skos:prefLabel>patrimonio historico</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/ejercito">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/tropasFrancesas"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/guerraIndependencia"/>
+    <skos:prefLabel>ejercito</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/iglesia">
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/arquitectura"/>
+    <skos:prefLabel>iglesia</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/medioAmbiente">
+    <skos:prefLabel>medio ambiente</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/personaje">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/videojuego"/>
+    <skos:prefLabel>personaje</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/calor">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/energiaTermica"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/energiaRenovable"/>
+    <skos:prefLabel>calor</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/energiaRenovable">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/energiaTermica"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/calor"/>
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/eolico"/>
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/solar"/>
+    <skos:narrower rdf:resource="http://www.minitrec.com/Subject/energia"/>
+    <skos:prefLabel>energia renovable</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/tropasFrancesas">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/ejercito"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/guerraIndependencia"/>
+    <skos:prefLabel>tropas francesas</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.minitrec.com/Subject/arquitectura">
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/patrimonio"/>
+    <skos:related rdf:resource="http://www.minitrec.com/Subject/renacimiento"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/santomense"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/castillo"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/iglesia"/>
+    <skos:broader rdf:resource="http://www.minitrec.com/Subject/monasterio"/>
+    <skos:prefLabel>arquitectura</skos:prefLabel>
+    <rdf:type>http://www.w3.org/2004/02/skos/core#Concept</rdf:type>
+  </rdf:Description>
+</rdf:RDF>

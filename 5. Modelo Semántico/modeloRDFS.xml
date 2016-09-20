@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!-- 
+Autor: 
+- Rafael Marcén Altarriba (650435)	
+-->
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Clases
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Clase que representa un documento -->
+    <rdfs:Class rdf:about="http://xmlns.com/foaf/spec/#term_Document">
+    	<rdfs:label>Clase documento</rdfs:label>
+    	<rdfs:comment>Clase que representa un documento</rdfs:comment>
+    	<rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	</rdfs:Class>
+	
+	<!-- Clase que representa un agente -->
+	<rdfs:Class rdf:about="http://xmlns.com/foaf/spec/#term_Agent">
+		<rdfs:label>Clase agente</rdfs:label>
+    	<rdfs:comment>Clase que representa un agente</rdfs:comment>
+		<rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+		<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	</rdfs:Class>
+
+	<!-- Clase que representa una persona -->
+	<rdfs:Class rdf:about="http://xmlns.com/foaf/spec/#term_Person">
+		<rdfs:label>Clase persona</rdfs:label>
+    	<rdfs:comment>Clase que representa una persona</rdfs:comment>
+		<rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+		<rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/spec/#term_Agent"/>
+	</rdfs:Class>
+
+	<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Propiedades
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Propiedad que representa un concepto -->
+	<rdfs:Property rdf:about="http://www.w3.org/2004/02/skos/core#subject">
+		<rdfs:label>Propiedad concepto</rdfs:label>
+    	<rdfs:comment>Propiedad que representa un concepto</rdfs:comment>
+		<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdfs:Property>
+
+	<!-- Propiedad que representa un identificador -->
+	<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/identifier">
+		<rdfs:label>Propiedad identificador</rdfs:label>
+    	<rdfs:comment>Propiedad que representa un identificador</rdfs:comment>
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+	</rdf:Property>
+
+	<!-- Propiedad que representa un lenguaje -->
+	<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/language">
+		<rdfs:label>Propiedad lenguaje</rdfs:label>
+    	<rdfs:comment>Propiedad que representa un lenguaje</rdfs:comment>
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+	</rdf:Property>
+
+	<!-- Propiedad que representa un título -->
+	<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/title">
+		<rdfs:label>Propiedad título</rdfs:label>
+    	<rdfs:comment>Propiedad que representa un título</rdfs:comment>
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+	</rdf:Property>
+
+	<!-- Propiedad que representa una descripcion -->
+	<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/description">
+		<rdfs:label>Propiedad descripcion</rdfs:label>
+    	<rdfs:comment>Propiedad que representa una descripcion</rdfs:comment>
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+	</rdf:Property>
+
+	<!-- Propiedad que representa un publisher -->
+	<rdf:Property rdf:about="http://purl.org/dc/terms/publisher">
+		<rdfs:label>Propiedad publisher</rdfs:label>
+    	<rdfs:comment>Propiedad que representa un publisher</rdfs:comment>
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
+		<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
+		<rdfs:range rdf:resource="http://purl.org/dc/terms/Agent"/>
+	</rdf:Property>
+
+	<!-- Propiedad que representa una fecha -->
+	<rdf:Property rdf:about="#Date">
+		<rdfs:label>Propiedad fecha</rdfs:label>
+    	<rdfs:comment>Propiedad que representa una fecha</rdfs:comment>
+		<rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/#term_Document"/>
+		<rdfs:range rdf:resource="&xsd;date"/>
+	</rdf:Property>
+</rdf:RDF>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Autores: 
+- Rafael Marcén Altarriba (650435)		
+-->
+<informationNeeds>
+	<informationNeed>
+		<identifier>1</identifier>
+		<text>Estoy interesado en documentos relevantes sobre algoritmos de
+		generación de contenido de forma procedural mediante técnicas que utilizan
+		ruido aleatorio usando tanto la CPU como la GPU de un computador.</text>
+	</informationNeed>
+
+	<informationNeed>
+		<identifier>2</identifier>
+		<text>Me interesan artículos sobre la problemática jurídica, controversias
+		y consecuencias en materia de expropiación forzosa de terrenos agrícolas en 
+		la comunidad autonoma de Aragón.</text>
+	</informationNeed>
+
+	<informationNeed>
+		<identifier>3</identifier>
+		<text>Estoy interesado en artículos relacionados la aplicación de diferentes 
+		métodos y procedimientos matemáticos para estudiar la eficiencia y eficacia 
+		de diferentes empresas y compañías.</text>
+	</informationNeed>
+
+	<informationNeed>
+		<identifier>4</identifier>
+		<text>¿Qué artículos existen sobre el descubirmiento, estudio o análisis de 
+		diferentes estructuras celulares, compuestos químicos u otros avances relacionados 
+		con el campo de la biología?</text>
+	</informationNeed>
+
+	<informationNeed>
+		<identifier>5</identifier>
+		<text>Me gustaría encontrar construcciones arquitectónicas situadas en España
+		con elementos decorativos que pertenezcan tanto a la Edad Media como a la 
+		época gótica y cuyo estado de conservación sea óptimo.</text>
+	</informationNeed>
+</informationNeeds>
